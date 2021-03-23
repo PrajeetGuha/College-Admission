@@ -15,7 +15,7 @@ def registration_status_code(var_dict):
         return 0
     if(not(vv.email_validation(var_dict['username']))):
         return 1
-    if(not(lc.check_email_present(var_dict['username']))):
+    if(lc.check_email_present(var_dict['username'])):
         return 2
     if(vv.passcheck(var_dict['password'])):
         return 3
