@@ -28,7 +28,11 @@ def registration_status_code(var_dict):
 def login_status_code(var_dict):
     
     #status_dict = {0:'Wrong Captcha', 1:'Invalid Credentials'}
-    
+    if(var_dict['user_captcha']!=var_dict['real_captcha']):
+        return 0
+    if(not(vv.email_validation(var_dict['username']))):
+        return 1
+    else:
+        return lc.creditional_check(var_dict['username'],var_dict['password'])
     #return the status_code only
-    
-    return {}  #just for testing
+    #just for testing
