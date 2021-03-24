@@ -36,3 +36,10 @@ def login_status_code(var_dict):
         return lc.creditional_check(var_dict['username'],var_dict['password'])
     #return the status_code only
     #just for testing
+    
+def admin_status_code(var_dict):
+    
+    #status_dict = {0:'Wrong Captcha', 1:'Invalid Credentials'}
+    
+    #return the status_code only
+    return {}  #just for testing
