@@ -18,9 +18,9 @@ def check_file(loc,info=0):
 
 def check_email_present(email,log):
     if log == 1:
-        loc=os.path.dirname(__file__) +'\studentlogininfo.xlsx'
+        loc=os.path.dirname(__file__) +'\databases\studentlogininfo.xlsx'
     else:
-        loc=os.path.dirname(__file__) +'\adminlogininfo.xlsx'
+        loc=os.path.dirname(__file__) +'\databases\adminlogininfo.xlsx'
     check_file(loc)
     book =openpyxl.load_workbook(loc)
     sheet = book.active
@@ -29,7 +29,7 @@ def check_email_present(email,log):
             return True
     return False
 def load(email):
-    loc2=os.path.dirname(__file__) +'\studentinfo.xlsx'
+    loc2=os.path.dirname(__file__) +'\databases\studentinfo.xlsx'
     check_file(loc2,1)
     book =openpyxl.load_workbook(loc2)
     sheet = book.active
@@ -45,9 +45,9 @@ def load(email):
             return info_dict
 def creditional_check(email,password,log):
     if log == 1:
-        loc=os.path.dirname(__file__) +'\studentlogininfo.xlsx'
+        loc=os.path.dirname(__file__) +'\databases\studentlogininfo.xlsx'
     else:
-        loc=os.path.dirname(__file__) +'\adminlogininfo.xlsx'
+        loc=os.path.dirname(__file__) +'\databases\adminlogininfo.xlsx'
     check_file(loc)
     book =openpyxl.load_workbook(loc)
     sheet = book.active
@@ -62,8 +62,8 @@ def creditional_check(email,password,log):
                 return 1
 def save_xls_file(arr,register):
     if register == 1:
-        workbook_name = os.path.dirname(__file__) +'\studentinfo.xlsx'
-        workbook2_name = os.path.dirname(__file__) +'\studentlogininfo.xlsx'
+        workbook_name = os.path.dirname(__file__) +'\databases\studentinfo.xlsx'
+        workbook2_name = os.path.dirname(__file__) +'\databases\studentlogininfo.xlsx'
         check_file(workbook_name,1)
         check_file(workbook2_name)
         
