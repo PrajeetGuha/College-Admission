@@ -15,11 +15,13 @@ def registration_status_code(var_dict):
         return 0
     if(not(vv.email_validation(var_dict['username']))):
         return 1
-    if(lc.check_email_present(var_dict['username'])):
+    if(lc.check_email_present(var_dict['username'],1)):
         return 2
     if(vv.passcheck(var_dict['password'])):
         return 3
     else:
+        arr = var_dict
+        lc.save_xls_file(arr,1)
         return 4
     #return the status_code only
     
@@ -30,16 +32,21 @@ def login_status_code(var_dict):
     #status_dict = {0:'Wrong Captcha', 1:'Invalid Credentials'}
     if(var_dict['user_captcha']!=var_dict['real_captcha']):
         return 0
-    if(not(lc.check_email_present(var_dict['username']))):
+    if(not(lc.check_email_present(var_dict['username'],1))):
         return 1
     else:
-        return lc.creditional_check(var_dict['username'],var_dict['password'])
+        return lc.creditional_check(var_dict['username'],var_dict['password'],1)
     #return the status_code only
     #just for testing
     
 def admin_status_code(var_dict):
     
     #status_dict = {0:'Wrong Captcha', 1:'Invalid Credentials'}
-    
+    if(var_dict['user_captcha']!=var_dict['real_captcha']):
+        return 0
+    if(not(lc.check_email_present(var_dict['username'],0))):
+        return 1
+    else:
+        return lc.creditional_check(var_dict['username'],var_dict['password'],0)
     #return the status_code only
-    return {}  #just for testing
+    #just for testing
