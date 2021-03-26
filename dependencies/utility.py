@@ -1,7 +1,9 @@
 import string
 import random
-from . import validation as vv
-from . import login_check as lc
+import validation as vv
+import login_check as lc
+import os
+
 def random_captcha():
     
     s = 5
@@ -42,11 +44,21 @@ def login_status_code(var_dict):
 def admin_status_code(var_dict):
     
     #status_dict = {0:'Wrong Captcha', 1:'Invalid Credentials'}
-    if(var_dict['user_captcha']!=var_dict['real_captcha']):
+    '''if(var_dict['user_captcha']!=var_dict['real_captcha']):
         return 0
     if(not(lc.check_email_present(var_dict['username'],0))):
         return 1
     else:
-        return lc.creditional_check(var_dict['username'],var_dict['password'],0)
+        return lc.creditional_check(var_dict['username'],var_dict['password'],0)'''
     #return the status_code only
-    #just for testing
+    return 2#just for testing
+
+def open_file():
+    
+    loc = os.path.dirname(__file__) +'\databases\studentinfo.xlsx'
+    lc.check_file(loc,1)
+    os.system(f'start EXCEL.EXE {loc}')
+    
+if __name__ == '__main__':
+    
+    open_file()
