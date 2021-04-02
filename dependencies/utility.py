@@ -1,7 +1,7 @@
 import string
 import random
-import validation as vv
-import login_check as lc
+from . import validation as vv
+from . import login_check as lc
 import os
 
 def random_captcha():
