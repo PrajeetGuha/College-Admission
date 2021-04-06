@@ -42,7 +42,7 @@ def check_email_present(email,log):
 def load(email):
     
     '''
-    It loads the saved data from the tudent information database
+    It loads the saved data from the student information database
     '''
     
     loc2=os.path.dirname(__file__) +'\databases\studentinfo.xlsx'
