@@ -1,8 +1,8 @@
 # IT Workshop project for academic year 2020-2021
 ## Table of Contents -
- - [General Info](##General-Info)
- - [Setup](##Setup)
- - [Screenshots](##Screenshots)
+ - [General Info](#General-Info)
+ - [Setup](#Setup)
+ - [Screenshots](#Screenshots)
  
 ## General Info
 #### Contributors( roll number as per academic year 2020-2021 3rd Semester) - 
