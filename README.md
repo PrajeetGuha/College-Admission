@@ -12,6 +12,7 @@
  <li> 26 Ishita Ghosh</li>
  <li> 28 Prajeet Guha</li>
  <li> 41 Ankita Nandi</li>
+ <li> 47 Shounak Rakshit</li>
  <li> 50 Aniket Sinha Roy</li>
 </ul>
 
