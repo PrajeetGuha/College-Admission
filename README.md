@@ -26,3 +26,8 @@ This is a group project done together by the members stated above. This project 
 <b>Step 5:</b> Run  `pip install -r requirements.txt` in Command Prompt and wait for installation to complete.<br/>
 <b>Step 6:</b> Then run  `python main_program.py` in Command Prompt or use available editor to run the <i>main_program.py</i>.
 ## Screenshots
+![home_screen](https://user-images.githubusercontent.com/58776463/113732098-ec08b380-9716-11eb-8377-39a4142f6e60.jpg)
+![sign_in_screen](https://user-images.githubusercontent.com/58776463/113732144-f62ab200-9716-11eb-8ee7-58e4e313c532.jpg)
+![register_screen](https://user-images.githubusercontent.com/58776463/113732167-fb87fc80-9716-11eb-8621-a0beacebca3d.jpg)
+![admin_console](https://user-images.githubusercontent.com/58776463/113732255-0f336300-9717-11eb-96a5-b5e73acb5640.jpg)
+![admin_window](https://user-images.githubusercontent.com/58776463/113732291-19556180-9717-11eb-98c5-dfc72be034ea.jpg)
