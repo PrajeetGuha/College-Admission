@@ -1,8 +1,10 @@
+
 # IT Workshop project for academic year 2020-2021
 ## Table of Contents -
  - [General Info](#General-Info)
  - [Setup](#Setup)
  - [Screenshots](#Screenshots)
+ - [Video](#Video)
  
 ## General Info
 #### Contributors( roll number as per academic year 2020-2021 3rd Semester) - 
@@ -38,3 +40,7 @@ This is a group project done together by the members stated above. This project 
 ![admin_login](https://user-images.githubusercontent.com/58776463/113732255-0f336300-9717-11eb-96a5-b5e73acb5640.jpg)
 ### Admin Console
 ![admin_console](https://user-images.githubusercontent.com/58776463/113732291-19556180-9717-11eb-98c5-dfc72be034ea.jpg)
+
+##Video
+### Sample Walkthrough
+[![Sample Video](http://img.youtube.com/vi/bD_wr7zkhXg/0.jpg)](https://youtu.be/bD_wr7zkhXg "Audi R8")
