@@ -43,4 +43,4 @@ This is a group project done together by the members stated above. This project 
 
 ## Video
 ### Sample Walkthrough (Click Below)
-                         [![Sample Video](https://stcet.org/static/assets/img/logo.png)](https://youtu.be/bD_wr7zkhXg "IT Workshop Project Sample")
+<div align='center'>[![Sample Video](https://stcet.org/static/assets/img/logo.png)](https://youtu.be/bD_wr7zkhXg "IT Workshop Project Sample")</div>
