@@ -41,6 +41,6 @@ This is a group project done together by the members stated above. This project 
 ### Admin Console
 ![admin_console](https://user-images.githubusercontent.com/58776463/113732291-19556180-9717-11eb-98c5-dfc72be034ea.jpg)
 
-##Video
+## Video
 ### Sample Walkthrough
 [![Sample Video](http://img.youtube.com/vi/bD_wr7zkhXg/0.jpg)](https://youtu.be/bD_wr7zkhXg "Audi R8")
