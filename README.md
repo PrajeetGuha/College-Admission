@@ -42,5 +42,5 @@ This is a group project done together by the members stated above. This project 
 ![admin_console](https://user-images.githubusercontent.com/58776463/113732291-19556180-9717-11eb-98c5-dfc72be034ea.jpg)
 
 ## Video
-### Sample Walkthrough
-[![Sample Video](https://stcet.org/static/assets/img/logo.png)](https://youtu.be/bD_wr7zkhXg "IT Workshop Project Sample")
+### Sample Walkthrough (Click Below)
+                         [![Sample Video](https://stcet.org/static/assets/img/logo.png)](https://youtu.be/bD_wr7zkhXg "IT Workshop Project Sample")
