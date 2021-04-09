@@ -43,4 +43,4 @@ This is a group project done together by the members stated above. This project 
 
 ## Video
 ### Sample Walkthrough
-[![Sample Video](http://img.youtube.com/vi/bD_wr7zkhXg/0.jpg)](https://youtu.be/bD_wr7zkhXg "Audi R8")
+[![Sample Video](https://stcet.org/static/assets/img/logo.png)](https://youtu.be/bD_wr7zkhXg "IT Workshop Project Sample")
