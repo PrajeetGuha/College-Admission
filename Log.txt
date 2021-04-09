@@ -1,0 +1,45 @@
+Arijit Banerjee:
+
+excel connections
+major backends of storing and retrieval of data
+frontend register sign in form planning
+register and sign in backend creation
+validation checks on register
+project testing
+
+Sumedha Das:
+
+Admission Form validation checks
+Admission Form planning and design
+Admission Form testing
+
+Ishita Ghosh:
+
+Admission Form planning and design
+
+Prajeet Guha:
+
+Home page creation
+frontend register, sign in functionalities
+register and sign in designing
+converting codes into modules and classes
+admin page creation and design
+
+Ankita Nandi:
+
+Admission Form validation checks
+Admission Form planning and design
+Admission Form testing
+
+Shounak Rakshit:
+
+Admission Form validation checks
+Admission Form planning and design
+Admission Form testing
+
+Aniket Sinha Roy:
+
+Admission Form validation checks
+Admission Form planning and design
+Admission Form testing
+bringing separate codes of admission form parts together into one
