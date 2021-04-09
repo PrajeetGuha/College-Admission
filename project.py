@@ -1,4 +1,4 @@
-import tkinter as tk
+﻿import tkinter as tk
 from tkinter import *
 from tkinter import ttk
 import pandas as pd
@@ -306,7 +306,7 @@ class app(tk.Frame):
                 self.a=self.a+1
             else:
                 permaA.delete("1.0", "end")
-                permaA.config(state='active')
+                permaA.config(state='normal')
                 self.a=self.a+1
 
         def check_id(email):
