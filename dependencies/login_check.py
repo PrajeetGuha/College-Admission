@@ -14,7 +14,7 @@ def check_file(loc,info=0):
         if info == 0:
             data=["Email","Password"]
         else:
-            data=['Registration Number','Name','DOB','Father\'s Name','Mother\'s Name','Gender','Dept','Domicile','Mother\'s Phone Number','Father\'s Phone Number','Email Id','Present Address','Permanent Address','High School Name','High School Board Name','High School Marks','Higher Secondary School Name','Higher Secondary Board Name', 'High Secondary Marks(P,C,M,(B/Co),Eng)']
+            data=['Registration Number','Name','DOB','Father\'s Name','Mother\'s Name','Gender','Dept','Domicile','Guardian\'s Phone Number','Student\'s Phone Number','Email Id','Present Address','Permanent Address','High School Name','High School Board Name','High School Marks','Higher Secondary School Name','Higher Secondary Board Name', 'High Secondary Marks(P,C,M,Agg)','Higher Secondary Best of 5']
 
         wb =openpyxl.workbook.Workbook()
         ws0 = wb.worksheets[0]
@@ -52,13 +52,13 @@ def load(email):
     info_dict={}
     for i in range(1,sheet.max_row+1):
         if(((sheet.cell(row=i,column=11)).value)==email):
-            for j in range(1,20):
+            for j in range(1,21):
                 if (sheet.cell(row=i,column=j)).value == None:
                     info_dict[(sheet.cell(row=1,column=j)).value]=''
                 else:
                     info_dict[(sheet.cell(row=1,column=j)).value]=(sheet.cell(row=i,column=j)).value
             info_dict['record']=i
-            print(info_dict)
+#             print(info_dict)
             return info_dict
         
 def creditional_check(email,password,log):
@@ -95,7 +95,7 @@ def add_xls_row(arr):
 
     wb =openpyxl.load_workbook(workbook_name)
     page = wb.active
-    record = 10*[''] + [arr['username']] + 8*['']
+    record = 10*[''] + [arr['username']] + 9*['']
     page.append(record)
     wb.save(filename =workbook_name)
 
@@ -115,7 +115,7 @@ def submit_save(value,row):
     check_file(loc2,1)
     book =openpyxl.load_workbook(loc2)
     sheet = book.active
-    for i in range(1,20):
+    for i in range(1,21):
         sheet.cell(row=row,column=i).value = value[i-1]
         
     book.save(filename=loc2)
